@@ -1,0 +1,19 @@
+# Secrets und lokale Konfiguration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Lokale Videodateien – nicht in Git committen
+videos/
+*.mp4
+*.mov
+*.m4v
+*.avi
+*.webm
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
